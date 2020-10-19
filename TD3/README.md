@@ -4,6 +4,12 @@ This is based on the PyTorch implementation of Twin Delayed Deep Deterministic P
 
 Need to install mujoco_py https://github.com/openai/mujoco-py, mujoco200 (license required), and [OpenAI gym](https://github.com/openai/gym)
 
+### Installation
+
+Dependencies are listed in `dependencies.yml` and can be installed with
+
+`conda env create -f dependencies.yml`
+
 
 ### Usage
 
