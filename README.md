@@ -11,7 +11,7 @@ To try D2RL on other environments, or with other algorithms, the main parameters
 
 ## Acknowledgement
 
-The codebase is built upon other existant codebases: 
+The codebase is built upon other these previous codebases: 
 
 SAC: https://github.com/denisyarats/pytorch_sac
 
