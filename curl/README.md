@@ -1,4 +1,4 @@
-# CURL
+# CURL-D2RL
 
 This is based on the official implementation of [CURL](https://mishalaskin.github.io/curl/) for the DeepMind control suite experiments.
 
@@ -11,7 +11,7 @@ conda env create -f conda_env.yml
 ```
 
 ## Instructions
-To train a CURL agent on the `cartpole swingup` task from image-based observations run `bash script/run.sh` from the root of this directory. The `run.sh` file contains the following command, which you can modify to try different environments / hyperparamters.
+To train a CURL-D2RL agent on the `cartpole swingup` task from image-based observations run `bash script/run.sh` from the root of this directory. The `run.sh` file contains the following command, which you can modify to try different environments / hyperparamters.
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py \
     --domain_name cartpole \
