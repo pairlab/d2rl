@@ -1,4 +1,4 @@
-# TD3
+# TD3-D2RL
 
 This is based on the PyTorch implementation of Twin Delayed Deep Deterministic Policy Gradients (TD3). [paper](https://arxiv.org/abs/1802.09477).
 
@@ -7,7 +7,7 @@ Need to install mujoco_py https://github.com/openai/mujoco-py, mujoco200 (licens
 
 ### Usage
 
-To run experiments, say on the OpenAI Gym Ant-v2 environment, 
+To run experiments with TD3-D2RL, say on the OpenAI Gym Ant-v2 environment, 
 
 `python3 main.py --env ant`
 
