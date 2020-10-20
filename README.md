@@ -2,6 +2,7 @@
 Official PyTorch code for D2RL: Deep Dense Architectures in Reinforcement Learning
 
 Paper: http://arxiv.org/abs/2010.09163
+Blog: https://sites.google.com/view/d2rl/home
 
 The code includes the code to train SAC-D2RL, TD3-D2RL, and CURL-D2RL agents. 
 
