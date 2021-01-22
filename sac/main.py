@@ -187,8 +187,8 @@ if args.gcp:
 else:
     obs_space = env.observation_space.shape[0] 
 
-agent = SAC(obs_space, env.action_space, args)
 args.automatic_entropy_tuning = True
+agent = SAC(obs_space, env.action_space, args)
 
 # Memory
 memory = ReplayMemory(args.replay_size)
